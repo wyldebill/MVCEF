@@ -20,6 +20,8 @@ namespace testwebef.Controllers
         {
             var student = db.Students.Where(s => s.FirstMidName == "Laura").FirstOrDefault();
             student.AddStar();
+            db.SaveChanges();
+            return View("Details", student);
         }
         // GET: /Student/
         public ActionResult Index()
