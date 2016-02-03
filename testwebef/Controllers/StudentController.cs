@@ -4,6 +4,7 @@ using System.Data;
 using System.Data.Entity;
 using System.Linq;
 using System.Net;
+using System.Threading.Tasks;
 using System.Web;
 using System.Web.Mvc;
 using ContosoUniversity.Models;
@@ -16,13 +17,23 @@ namespace testwebef.Controllers
         private SchoolContext db = new SchoolContext();
 
 
-        public ActionResult IncLaura()
+        public async Task<ActionResult> IncLaura()
         {
-            var student = db.Students.Where(s => s.FirstMidName == "Laura").FirstOrDefault();
+            Task<Student> t = db.Students.Where(s => s.FirstMidName == "Laura").FirstOrDefaultAsync<Student>();
+            Student student = await t;
+
             student.AddStar();
-            db.SaveChanges();
+            Task<int> save = db.SaveChangesAsync();
+            int records = await save;
             return View("Details", student);
+
+            //var student = db.Students.Where(s => s.FirstMidName == "Laura").FirstOrDefault();
+            //student.AddStar();
+            //db.SaveChanges();
+            //return View("Details", student);
         }
+
+
         // GET: /Student/
         public ActionResult Index()
         {
