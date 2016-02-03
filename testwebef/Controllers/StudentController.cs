@@ -17,7 +17,7 @@ namespace testwebef.Controllers
         private SchoolContext db = new SchoolContext();
 
 
-        public async Task<ActionResult> IncLaura()
+        public async Task<ActionResult> IncLauraAsync()
         {
             Task<Student> t = db.Students.Where(s => s.FirstMidName == "Laura").FirstOrDefaultAsync<Student>();
             Student student = await t;
@@ -27,10 +27,15 @@ namespace testwebef.Controllers
             int records = await save;
             return View("Details", student);
 
-            //var student = db.Students.Where(s => s.FirstMidName == "Laura").FirstOrDefault();
-            //student.AddStar();
-            //db.SaveChanges();
-            //return View("Details", student);
+        }
+
+        public ActionResult IncLaura()
+        {
+
+            var student = db.Students.Where(s => s.FirstMidName == "Laura").FirstOrDefault();
+            student.AddStar();
+            db.SaveChanges();
+            return View("Details", student);
         }
 
 
