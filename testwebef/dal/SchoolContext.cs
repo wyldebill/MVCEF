@@ -8,7 +8,7 @@ namespace ContosoUniversity.DAL
     {
 
         public SchoolContext()
-            : base("SQLSERVER_CONNECTION_STRING")
+            : base("SchoolContext")
         {
             Database.SetInitializer<SchoolContext>(new SchoolInitializer());
 

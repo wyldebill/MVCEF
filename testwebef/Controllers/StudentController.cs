@@ -15,6 +15,18 @@ namespace testwebef.Controllers
     {
         private SchoolContext db = new SchoolContext();
 
+        public ActionResult IncRandom()
+        {
+            var rndGen = new Random(DateTime.Now.Millisecond);
+
+            var studentNumber = rndGen.Next(1, 8);
+            var student = db.Students.Where(s => s.ID == studentNumber).FirstOrDefault();
+            student.AddStar();
+            db.SaveChanges();
+            return View("Details", student);
+
+
+        }
 
         public ActionResult IncLaura()
         {
