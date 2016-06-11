@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebTest Name="WebTest1" Id="ef05ecbd-02c5-410f-b672-af460dc307ec" Owner="" Priority="2147483647" Enabled="True" CssProjectStructure="" CssIteration="" Timeout="0" WorkItemIds="" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010" Description="" CredentialUserName="" CredentialPassword="" PreAuthenticate="True" Proxy="default" StopOnError="False" RecordedResultFile="WebTest1.c6bbb89b-0942-4e70-8ca2-c60cc5edb325.rec.webtestresult" ResultsLocale="">
+  <Items>
+    <Request Method="POST" Guid="f800bf91-c167-4bf7-82c9-94c8901f082c" Version="1.1" Url="https://lastpass.com/httptest.php" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <FormPostHttpBody>
+        <FormPostParameter Name="requesthash" Value="ieunknown0" RecordedValue="ieunknown0" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="requestsrc" Value="ie" RecordedValue="ie" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="hasplugin" Value="3.2.40" RecordedValue="3.2.40" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="requestsrc" Value="ie" RecordedValue="ie" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="hasplugin" Value="3.2.40" RecordedValue="3.2.40" CorrelationBinding="" UrlEncode="True" />
+      </FormPostHttpBody>
+    </Request>
+    <Request Method="POST" Guid="6f82f06d-acbc-4ea1-8864-60e8f00b57fa" Version="1.1" Url="https://lastpass.com/login_check.php" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <FormPostHttpBody>
+        <FormPostParameter Name="canexpire" Value="1" RecordedValue="1" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="cansetuuid" Value="1" RecordedValue="1" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="version" Value="3.2.40" RecordedValue="3.2.40" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="method" Value="ie" RecordedValue="ie" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="hp" Value="0" RecordedValue="0" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="uuid" Value="aknWgM*gz4HaVwZ#nxq5!%f$K*xYUM3P" RecordedValue="aknWgM*gz4HaVwZ#nxq5!%f$K*xYUM3P" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="lang" Value="en-US" RecordedValue="en-US" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="iterations" Value="5000" RecordedValue="5000" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="requesthash" Value="ieunknown0" RecordedValue="ieunknown0" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="requestsrc" Value="ie" RecordedValue="ie" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="hasplugin" Value="3.2.40" RecordedValue="3.2.40" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="requestsrc" Value="ie" RecordedValue="ie" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="hasplugin" Value="3.2.40" RecordedValue="3.2.40" CorrelationBinding="" UrlEncode="True" />
+      </FormPostHttpBody>
+    </Request>
+    <Request Method="POST" Guid="b5ed5c4f-3e61-4fb5-b197-2e874a8fb2c8" Version="1.1" Url="https://lastpass.com/httptest.php" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <FormPostHttpBody>
+        <FormPostParameter Name="requesthash" Value="ieunknown0" RecordedValue="ieunknown0" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="requestsrc" Value="ie" RecordedValue="ie" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="hasplugin" Value="3.2.40" RecordedValue="3.2.40" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="requestsrc" Value="ie" RecordedValue="ie" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="hasplugin" Value="3.2.40" RecordedValue="3.2.40" CorrelationBinding="" UrlEncode="True" />
+      </FormPostHttpBody>
+    </Request>
+    <Request Method="POST" Guid="453e0aab-9c38-4dcf-bfac-5b6af65d372d" Version="1.1" Url="https://lastpass.com/login_check.php" ThinkTime="13" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <FormPostHttpBody>
+        <FormPostParameter Name="canexpire" Value="1" RecordedValue="1" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="cansetuuid" Value="1" RecordedValue="1" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="version" Value="3.2.40" RecordedValue="3.2.40" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="method" Value="ie" RecordedValue="ie" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="hp" Value="0" RecordedValue="0" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="uuid" Value="aknWgM*gz4HaVwZ#nxq5!%f$K*xYUM3P" RecordedValue="aknWgM*gz4HaVwZ#nxq5!%f$K*xYUM3P" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="lang" Value="en-US" RecordedValue="en-US" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="iterations" Value="5000" RecordedValue="5000" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="requesthash" Value="ieunknown0" RecordedValue="ieunknown0" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="requestsrc" Value="ie" RecordedValue="ie" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="hasplugin" Value="3.2.40" RecordedValue="3.2.40" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="requestsrc" Value="ie" RecordedValue="ie" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="hasplugin" Value="3.2.40" RecordedValue="3.2.40" CorrelationBinding="" UrlEncode="True" />
+      </FormPostHttpBody>
+    </Request>
+    <Request Method="GET" Guid="27201632-9689-4cdd-b9b7-f3552d258b7e" Version="1.1" Url="http://api.bing.com/qsml.aspx" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <QueryStringParameters>
+        <QueryStringParameter Name="query" Value="http%3A%2F%2Fmvcefsql.azurewebsites.net%2Fstudent" RecordedValue="http%3A%2F%2Fmvcefsql.azurewebsites.net%2Fstudent" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="market" Value="en-US" RecordedValue="en-US" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="maxwidth" Value="32765" RecordedValue="32765" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="rowheight" Value="20" RecordedValue="20" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="sectionHeight" Value="160" RecordedValue="160" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="FORM" Value="IESS02" RecordedValue="IESS02" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="pc" Value="EUPP_" RecordedValue="EUPP_" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="fb72eb8b-f823-45dc-857e-c65c241ac70a" Version="1.1" Url="http://api.bing.com/qsml.aspx" ThinkTime="1" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <QueryStringParameters>
+        <QueryStringParameter Name="query" Value="http%3A%2F%2Fmvcefsql.azurewebsites.net%2Fstudent" RecordedValue="http%3A%2F%2Fmvcefsql.azurewebsites.net%2Fstudent" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="market" Value="en-US" RecordedValue="en-US" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="maxwidth" Value="32765" RecordedValue="32765" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="rowheight" Value="20" RecordedValue="20" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="sectionHeight" Value="160" RecordedValue="160" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="FORM" Value="IESS02" RecordedValue="IESS02" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="pc" Value="EUPP_" RecordedValue="EUPP_" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="b6ec0793-5d20-4e5b-b85e-cadd50248bfc" Version="1.1" Url="http://mvcefsql.azurewebsites.net/student" ThinkTime="6" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False" />
+    <Request Method="GET" Guid="e4a63e23-759c-409e-9311-6f4ec9800f9f" Version="1.1" Url="http://api.bing.com/qsml.aspx" ThinkTime="1" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <QueryStringParameters>
+        <QueryStringParameter Name="query" Value="http%3A%2F%2Fmvcefsql.azurewebsites.net%2Fstudent%2Fin" RecordedValue="http%3A%2F%2Fmvcefsql.azurewebsites.net%2Fstudent%2Fin" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="market" Value="en-US" RecordedValue="en-US" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="maxwidth" Value="32765" RecordedValue="32765" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="rowheight" Value="20" RecordedValue="20" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="sectionHeight" Value="160" RecordedValue="160" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="FORM" Value="IESS02" RecordedValue="IESS02" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="pc" Value="EUPP_" RecordedValue="EUPP_" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="c3bb8d40-4029-4f79-ab43-96c250771932" Version="1.1" Url="http://api.bing.com/qsml.aspx" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <QueryStringParameters>
+        <QueryStringParameter Name="query" Value="http%3A%2F%2Fmvcefsql.azurewebsites.net%2Fstudent%2Finc" RecordedValue="http%3A%2F%2Fmvcefsql.azurewebsites.net%2Fstudent%2Finc" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="market" Value="en-US" RecordedValue="en-US" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="maxwidth" Value="32765" RecordedValue="32765" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="rowheight" Value="20" RecordedValue="20" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="sectionHeight" Value="160" RecordedValue="160" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="FORM" Value="IESS02" RecordedValue="IESS02" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="pc" Value="EUPP_" RecordedValue="EUPP_" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="942a1b6a-fb19-41ea-89b1-883c12a88c91" Version="1.1" Url="http://api.bing.com/qsml.aspx" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <QueryStringParameters>
+        <QueryStringParameter Name="query" Value="http%3A%2F%2Fmvcefsql.azurewebsites.net%2Fstudent%2Fincra" RecordedValue="http%3A%2F%2Fmvcefsql.azurewebsites.net%2Fstudent%2Fincra" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="market" Value="en-US" RecordedValue="en-US" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="maxwidth" Value="32765" RecordedValue="32765" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="rowheight" Value="20" RecordedValue="20" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="sectionHeight" Value="160" RecordedValue="160" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="FORM" Value="IESS02" RecordedValue="IESS02" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="pc" Value="EUPP_" RecordedValue="EUPP_" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="01459007-dc6a-4283-8427-663100bbfee4" Version="1.1" Url="http://api.bing.com/qsml.aspx" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <QueryStringParameters>
+        <QueryStringParameter Name="query" Value="http%3A%2F%2Fmvcefsql.azurewebsites.net%2Fstudent%2Fincran" RecordedValue="http%3A%2F%2Fmvcefsql.azurewebsites.net%2Fstudent%2Fincran" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="market" Value="en-US" RecordedValue="en-US" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="maxwidth" Value="32765" RecordedValue="32765" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="rowheight" Value="20" RecordedValue="20" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="sectionHeight" Value="160" RecordedValue="160" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="FORM" Value="IESS02" RecordedValue="IESS02" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="pc" Value="EUPP_" RecordedValue="EUPP_" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="5f72b21a-c3c7-471d-a3c8-fedde3ee516c" Version="1.1" Url="http://api.bing.com/qsml.aspx" ThinkTime="1" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <QueryStringParameters>
+        <QueryStringParameter Name="query" Value="http%3A%2F%2Fmvcefsql.azurewebsites.net%2Fstudent%2Fincrandom" RecordedValue="http%3A%2F%2Fmvcefsql.azurewebsites.net%2Fstudent%2Fincrandom" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="market" Value="en-US" RecordedValue="en-US" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="maxwidth" Value="32765" RecordedValue="32765" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="rowheight" Value="20" RecordedValue="20" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="sectionHeight" Value="160" RecordedValue="160" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="FORM" Value="IESS02" RecordedValue="IESS02" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="pc" Value="EUPP_" RecordedValue="EUPP_" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="5aeeab6e-f881-4760-ab0d-fddd1f38e673" Version="1.1" Url="http://mvcefsql.azurewebsites.net/student/incrandom" ThinkTime="6" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False" />
+    <Request Method="GET" Guid="8faebb14-320b-41e2-990f-e08f1c16aad8" Version="1.1" Url="http://mvcefsql.azurewebsites.net/student/incrandom" ThinkTime="3" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False" />
+    <Request Method="GET" Guid="ce20fceb-31e3-4edd-a096-0a6a35f08966" Version="1.1" Url="http://mvcefsql.azurewebsites.net/student/incrandom" ThinkTime="2" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False" />
+    <Request Method="GET" Guid="14a53dfa-f8d1-4d79-96c3-014509d19ee1" Version="1.1" Url="http://mvcefsql.azurewebsites.net/student/incrandom" ThinkTime="1" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False" />
+    <Request Method="GET" Guid="73f8acbb-8d33-4e96-a86d-23cbfd1273f7" Version="1.1" Url="http://mvcefsql.azurewebsites.net/student/incrandom" ThinkTime="1" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False" />
+    <Request Method="GET" Guid="90a8de52-c5bf-4b80-97c4-824c3ca85b34" Version="1.1" Url="http://mvcefsql.azurewebsites.net/student/incrandom" ThinkTime="1" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False" />
+    <Request Method="GET" Guid="5c254c60-e94e-4490-8bf9-686da64b821a" Version="1.1" Url="http://mvcefsql.azurewebsites.net/student/incrandom" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False" />
+  </Items>
+  <ValidationRules>
+    <ValidationRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ValidateResponseUrl, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" DisplayName="Response URL" Description="Validates that the response URL after redirects are followed is the same as the recorded response URL.  QueryString parameters are ignored." Level="Low" ExectuionOrder="BeforeDependents" />
+    <ValidationRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ValidationRuleResponseTimeGoal, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" DisplayName="Response Time Goal" Description="Validates that the response time for the request is less than or equal to the response time goal as specified on the request.  Response time goals of zero will be ignored." Level="Low" ExectuionOrder="AfterDependents">
+      <RuleParameters>
+        <RuleParameter Name="Tolerance" Value="0" />
+      </RuleParameters>
+    </ValidationRule>
+  </ValidationRules>
+</WebTest>
